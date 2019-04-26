@@ -1,10 +1,10 @@
 require 'sinatra/base'
-	require 'sinatra'
+require 'sinatra'
 
-	class Chitter < Sinatra::Base
-	  get '/' do
-	    "Hello World"
-	  end
+class Chitter < Sinatra::Base
+  get '/' do
+    "Welcome to Chitter"
+  end
 
-	  run! if app_file == $0
-	end
+  run! if app_file == $0
+end
